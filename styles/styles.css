@@ -25,6 +25,39 @@ nav a {
 body {
   background: #EDF5E1;
   color: #05386B;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-me article {
+  width: 30%;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 818px ) {
+  .about-me {
+    flex-direction: column;
+  }
+
+  .about-me article {
+    width: 90%;
+  }
+
+}
+
+.about-me img {
+  padding: 20px;
+}
+
+
+i.fas {
+  padding-right: 5px;
 }
 
 .project-item {

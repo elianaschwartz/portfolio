@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <header>
+      <nav><span><a href="index.html">Home</a></span> <span><a href="projects.html">Projects</a></span><span class="live-page">Contact</span></nav>
+      <h1>Contact Me</h1>
+    </header>
+    <div class="contact-form">
+      <form method="GET">
+        <div class="part-1">
+          <label>Name:
+            <input type="text" name="name" required>
+          </label>
+          <label>Email Address:
+            <input type="email" name="emailAddress" required>
+          </label>
+          <label>Telephone Number:
+            <input type="tel" name="telephoneNumber">
+          </label>
+        </div>
+        <div class="part-2">
+          <fieldset class="checkbox">
+            <legend>I'm contacting you because:</legend>
+            <label>
+              <input type="checkbox" name="reason" value="interestedInWork">I think your work is cool!
+              <span class="checkmark"></span>
+            </label>
+            <label>
+              <input type="checkbox" name="reason" value="alsoLikeCrosswords">I'm also a crossword fanatic!
+              <span class="checkmark"></span>
+            </label>
+            <label>
+              <input type="checkbox" name="reason" value="wantToHangOut">I want to hang out!
+              <span class="checkmark"></span>
+            </label>
+          </fieldset>
+        </div>
+        <div class="part-3">
+          <label>Message:
+            <textarea name="message" required rows="10" cols="50"></textarea>
+          </label>
+          <input type="submit" value="Send Message">
+        </div>
+      </form>
+    </div>
+    <footer>
+      Site made by Eliana Schwartz for HTML5 100 A
+    </footer>
+  </body>
+</html>

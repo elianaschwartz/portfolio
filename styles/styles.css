@@ -4,10 +4,14 @@ nav {
   padding: 20px;
 }
 
-nav span:first-child {
+nav span {
   margin-right: 10px;
   padding-right: 10px;
   border-right: 1px solid #379683;
+}
+
+nav span:last-child {
+  border-right: none;
 }
 
 nav a {
@@ -101,4 +105,99 @@ footer {
   color: #EDF5E1;
   padding: 20px;
   text-align: center;
+}
+
+.contact-form {
+  padding-bottom: 30px
+}
+
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.part-1, .part-2, .part-3 {
+  padding: 0 20px;
+}
+
+.part-1 input {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  display: block;
+}
+
+fieldset {
+  border: none;
+  margin: 20px;
+}
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #FFF;
+}
+
+.checkbox label:hover input ~ .checkmark {
+  background-color: #4169E1;;
+}
+
+.checkbox input:checked ~ .checkmark {
+  background-color: #4169E1;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkmark:after {
+  display: block;
+}
+
+.checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+input[type=submit] {
+  margin: 10px;
+  font-size: 20px;
+  background-color: #8EE4AF;
 }

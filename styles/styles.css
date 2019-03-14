@@ -1,13 +1,13 @@
 nav {
   background-color: #8EE4AF;
   text-align: right;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 nav span {
-  margin-right: 10px;
-  padding-right: 10px;
-  border-right: 1px solid #379683;
+  margin-right: 0.625rem;
+  padding-right: 0.625rem;
+  border-right: 1px solid #296158;
 }
 
 nav span:last-child {
@@ -17,21 +17,21 @@ nav span:last-child {
 nav a {
   text-decoration: none;
   color: #05386B;
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: normal;
   -webkit-transition: font-weight 1s;
   transition: font-weight 1s;
 }
 
 nav a:hover {
-  color: #4169E1;
+  color: #204CCF;
   font-weight: bold;
 }
 
 .live-page {
   font-weight: bold;
   color: #05386B;
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 body {
@@ -64,51 +64,51 @@ body {
 }
 
 .about-me img {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 
 i.fas {
-  padding-right: 5px;
+  padding-right: 0.3125rem;
 }
 
 .project-item {
   list-style: none;
-  padding: 15px;
-  margin-left: 50px;
+  padding: 0.9375rem;
+  margin-left: 3.125rem;
   -webkit-transition: margin-left 2s;
   transition: margin-left 2s;
 }
 
 .project-item:hover {
-  margin-left: 100px;
+  margin-left: 6.25rem;
 }
 
 .project-item a {
-  font-size: 18px;
+  font-size: 1.125rem;
   -webkit-transition: font-size 2s;
   transition: font-size 2s;
 }
 
 .project-item a:hover {
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 .project-item img {
   vertical-align: middle;
-  height: 50px;
-  padding-right: 15px;
+  height: 3.125rem;
+  padding-right: 0.9375rem;
 }
 
 footer {
   background-color: #05386B;
   color: #EDF5E1;
-  padding: 20px;
+  padding: 1.25rem;
   text-align: center;
 }
 
 .contact-form {
-  padding-bottom: 30px
+  padding-bottom: 1.875rem;
 }
 
 
@@ -119,13 +119,13 @@ form {
 }
 
 .part-1, .part-2, .part-3 {
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 
 .part-1 input {
-  width: 200px;
-  height: 30px;
-  margin-bottom: 20px;
+  width: 12.5rem;
+  height: 1.875rem;
+  margin-bottom: 1.25rem;
 }
 
 input, textarea {
@@ -134,7 +134,7 @@ input, textarea {
 
 fieldset {
   border: none;
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 .checkbox input {
@@ -148,8 +148,8 @@ fieldset {
 .checkbox label {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-top: 12px;
+  padding-left: 2.188rem;
+  margin-top: 0.75rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -161,13 +161,13 @@ fieldset {
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 1.563rem;
+  width: 1.563rem;
   background-color: #FFF;
 }
 
 .checkbox label:hover input ~ .checkmark {
-  background-color: #4169E1;;
+  background-color: #4169E1;
 }
 
 .checkbox input:checked ~ .checkmark {
@@ -185,19 +185,19 @@ fieldset {
 }
 
 .checkbox .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
+  left: 0.5625rem;
+  top: 0.3125rem;
+  width: 0.3125rem;
+  height: 0.625rem;
   border: solid white;
-  border-width: 0 3px 3px 0;
+  border-width: 0 0.1875rem 0.1875rem 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 input[type=submit] {
-  margin: 10px;
-  font-size: 20px;
+  margin: 0.625rem;
+  font-size: 1.25rem;
   background-color: #8EE4AF;
 }
